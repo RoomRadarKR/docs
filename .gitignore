@@ -1,0 +1,35 @@
+# OS 관련 임시 파일 (특히 맥북)
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# 작업 도구 및 IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 빌드 결과물 및 라이브러리 (언어에 따라 선택)
+node_modules/
+dist/
+build/
+out/
+bin/
+obj/
+
+# 로그 및 임시 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tmp/
+
+# 환경 변수 및 보안 파일 (절대 업로드 금지)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
